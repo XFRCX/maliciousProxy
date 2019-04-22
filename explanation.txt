@@ -1,0 +1,21 @@
+The first thing that I accomplished was to get a simple proxy to work.
+Once I was able to get that step out of the way I started to plan on how
+I would sift information out of HTML response pages. Using the hint provided
+I began to research the use a regular expressions in Python. With time and
+the help of a useful website listed below I began to work on the regular
+expressions I would need. This took some time and planning but altogether
+I feel that I learned valuable information that I can use elsewhere. Once
+I finished I began to work with the active part of the project. I had to
+look up what a Javascript injection was and ask multiple questions to fully
+grasp what was being asked from me. Using w3schools.com I was able to come
+up with the script that I would inject into the HTML. The testing part was a
+bit challenging due my program needing to be stopped with control+c. One thing
+that I tried was to see if I could visit all the test pages and have the text
+file be updated with all the sensitive data from every page but I was not able
+to get it work like that. I believe this is because of the multi-threaded
+aspect of my program. I tried to incorporate a timeout for the recv function
+but I was not able to get it work with out issues, so I left it out. One thing
+that is worth mentioning is that my program requires to be run on sudo. 
+
+https://regex101.com/
+https://www.w3schools.com/
